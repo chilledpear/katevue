@@ -13,8 +13,12 @@
 
             <!-- Section header -->
             <div class="md:max-w-3xl mb-12 md:mb-20" data-aos="fade-up">
-              <h2 class="h2 text-white mb-4">Get started in minutes and connect all your accounts in one place</h2>
-              <p class="text-lg text-blue-200 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h2 class="h2 text-white mb-4">
+                Get started in minutes and connect all your accounts in one place
+              </h2>
+              <p class="text-lg text-blue-200 mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
 
             <!-- Image -->
@@ -34,7 +38,9 @@
                   <div class="flex items-center justify-center font-bold text-teal-600 bg-teal-200 h-11 w-11 rounded-full">1</div>
                 </div>
                 <h4 class="text-white text-xl font-bold mb-1">Download the app</h4>
-                <p class="text-blue-200">Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.</p>
+                <p class="text-blue-200">
+                  Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.
+                </p>
               </div>
 
               <!-- 2nd item -->
@@ -43,7 +49,9 @@
                   <div class="flex items-center justify-center font-bold text-teal-600 bg-teal-200 h-11 w-11 rounded-full">2</div>
                 </div>
                 <h4 class="text-white text-xl font-bold mb-1">Request your card</h4>
-                <p class="text-blue-200">Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.</p>
+                <p class="text-blue-200">
+                  Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.
+                </p>
               </div>
 
               <!-- 3rd item -->
@@ -52,7 +60,9 @@
                   <div class="flex items-center justify-center font-bold text-teal-600 bg-teal-200 h-11 w-11 rounded-full">3</div>
                 </div>
                 <h4 class="text-white text-xl font-bold mb-1">Connect all your account</h4>
-                <p class="text-blue-200">Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.</p>
+                <p class="text-blue-200">
+                  Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.
+                </p>
               </div>
 
             </div>

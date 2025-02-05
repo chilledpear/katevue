@@ -22,8 +22,8 @@
                 </g>
               </svg>
             </div>
-            <h4 class="text-xl font-bold mb-1">Create custom cards</h4>
-            <p class="text-slate-500">Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.</p>
+            <h4 class="text-xl font-bold mb-1">Add Kate on Telegram</h4>
+            <p class="text-slate-500">Add Kate AI to your telegram group and let Kate fetch twitter alpha (PS She loves it).</p>
           </div>
 
           <!-- 2nd item -->
@@ -42,8 +42,8 @@
                 </g>
               </svg>
             </div>
-            <h4 class="text-xl font-bold mb-1">Create custom cards</h4>
-            <p class="text-slate-500">Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.</p>
+            <h4 class="text-xl font-bold mb-1">Chat with Kate</h4>
+            <p class="text-slate-500">Send Kate a DM to answer any questions as your flexible personal assistant.</p>
           </div>
 
           <!-- 3rd item -->
@@ -62,8 +62,8 @@
                 </g>
               </svg>
             </div>
-            <h4 class="text-xl font-bold mb-1">Create custom cards</h4>
-            <p class="text-slate-500">Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.</p>
+            <h4 class="text-xl font-bold mb-1">Continuous Upgrades</h4>
+            <p class="text-slate-500">Share your suggestions with Kate and have those features add to her.</p>
           </div>
 
         </div>

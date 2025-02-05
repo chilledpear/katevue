@@ -2,7 +2,7 @@
   <section class="mt-12 md:mt-20" data-aos-id-6>
     <div class="relative max-w-7xl mx-auto">
 
-      <!-- Bg -->
+      <!-- Background -->
       <div class="absolute inset-0 rounded-tl-[100px] mb-24 md:mb-0 bg-linear-to-b from-slate-100 pointer-events-none -z-10" aria-hidden="true"></div>
 
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
@@ -14,37 +14,45 @@
             <!-- Content -->
             <div class="w-[512px] max-w-full shrink-0 md:order-1">
 
-              <!-- Copy -->
-              <h2 class="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="100">Compliance built card for businesses and professionals</h2>
-              <p class="text-lg text-slate-500 mb-6" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam, quis nostrud exercitation.</p>
+              <!-- Header -->
+              <h2 class="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="100">
+                Empower Your Business with a Secure, Compliant Card Solution
+              </h2>
+
+              <!-- Paragraph -->
+              <p class="text-lg text-slate-500 mb-6" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="200">
+                Our innovative card platform is tailored for businesses and professionals. With cutting-edge security, seamless payments, and real-time compliance updates, you can manage your finances effortlessly while focusing on growth.
+              </p>
+
+              <!-- Bullet List -->
               <ul class="inline-flex flex-col text-slate-500 space-y-2.5" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="300">
                 <li class="flex items-center">
                   <svg class="shrink-0 mr-3" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
                     <circle class="fill-blue-100" cx="10" cy="10" r="10" />
-                    <path class="fill-blue-500" d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z" />
+                    <path class="fill-blue-500" d="M15 7 L10 12 L7 9" />
                   </svg>
-                  <span>Identity verifications</span>
+                  <span>Robust Identity Verification &amp; Fraud Prevention</span>
                 </li>
                 <li class="flex items-center">
                   <svg class="shrink-0 mr-3" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
                     <circle class="fill-blue-100" cx="10" cy="10" r="10" />
-                    <path class="fill-blue-500" d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z" />
+                    <path class="fill-blue-500" d="M15 7 L10 12 L7 9" />
                   </svg>
-                  <span>Secure credit card data tokenization</span>
+                  <span>Advanced Data Tokenization for Secure Transactions</span>
                 </li>
                 <li class="flex items-center">
                   <svg class="shrink-0 mr-3" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
                     <circle class="fill-blue-100" cx="10" cy="10" r="10" />
-                    <path class="fill-blue-500" d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z" />
+                    <path class="fill-blue-500" d="M15 7 L10 12 L7 9" />
                   </svg>
-                  <span>Online and mobile payments</span>
+                  <span>Seamless Online &amp; Mobile Payments</span>
                 </li>
                 <li class="flex items-center">
                   <svg class="shrink-0 mr-3" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
                     <circle class="fill-blue-100" cx="10" cy="10" r="10" />
-                    <path class="fill-blue-500" d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z" />
+                    <path class="fill-blue-500" d="M15 7 L10 12 L7 9" />
                   </svg>
-                  <span>IGlobal regulations and compliance</span>
+                  <span>Global Compliance &amp; Real-Time Monitoring</span>
                 </li>
               </ul>
 
@@ -64,13 +72,15 @@
                     <!-- Card #1 -->
                     <div class="swiper-slide flex flex-col h-auto shadow-2xl text-left">
                       <div class="relative after:absolute after:inset-0 after:bg-linear-to-t after:from-slate-700">
-                        <img src="../images/testimonial-01.jpg" class="md:max-w-none" width="384" height="180" alt="Testiomonial 01" />
+                        <img src="../images/testimonial-01.jpg" class="md:max-w-none" width="384" height="180" alt="Testimonial 01" />
                       </div>
                       <div class="grow flex flex-col relative bg-linear-to-t from-slate-800 to-slate-700 p-6 pt-14">
-                        <img class="absolute bottom-full translate-y-1/2" src="../images/testimonial-sign-01.svg" width="150" height="71" alt="Testiomonial sign 01" />
-                        <p class="grow font-medium text-slate-200 mb-4">“ This card is awesome. The app lets me link foreign cards with a new one which makes everything 100 times easier. Like Apple Pay, online shopping without useless phone confirmation. I wish I knew this earlier. ”</p>
+                        <img class="absolute bottom-full translate-y-1/2" src="../images/testimonial-sign-01.svg" width="150" height="71" alt="Testimonial sign 01" />
+                        <p class="grow font-medium text-slate-200 mb-4">
+                          “Since adopting this card solution, our payment process has become a breeze. The real-time alerts and seamless integration have boosted our operational efficiency.”
+                        </p>
                         <div class="font-medium text-sm text-slate-500">
-                          <span class="text-slate-200">Elisa Koeppel</span> - <span class="text-slate-400">CEO & Co-Founder</span>
+                          <span class="text-slate-200">Alex Johnson</span> - <span class="text-slate-400">CFO</span>
                         </div>
                       </div>
                     </div>
@@ -78,13 +88,15 @@
                     <!-- Card #2 -->
                     <div class="swiper-slide flex flex-col h-auto shadow-2xl text-left">
                       <div class="relative after:absolute after:inset-0 after:bg-linear-to-t after:from-slate-700">
-                        <img src="../images/testimonial-02.jpg" class="md:max-w-none" width="384" height="180" alt="Testiomonial 02" />
+                        <img src="../images/testimonial-02.jpg" class="md:max-w-none" width="384" height="180" alt="Testimonial 02" />
                       </div>
                       <div class="grow flex flex-col relative bg-linear-to-t from-slate-800 to-slate-700 p-6 pt-14">
-                        <img class="absolute bottom-full translate-y-1/2" src="../images/testimonial-sign-02.svg" width="105" height="46" alt="Testiomonial sign 02" />
-                        <p class="grow font-medium text-slate-200 mb-4">“ This card allows us to achieve compliance with minimal effort, spend practically no time on payments-related customer support, and keep the user experience on our platform. “</p>
+                        <img class="absolute bottom-full translate-y-1/2" src="../images/testimonial-sign-02.svg" width="105" height="46" alt="Testimonial sign 02" />
+                        <p class="grow font-medium text-slate-200 mb-4">
+                          “Our business compliance is now second to none. The platform's robust security measures and intuitive interface give us the confidence to scale our operations globally.”
+                        </p>
                         <div class="font-medium text-sm text-slate-500">
-                          <span class="text-slate-200">Maria Gress</span> - <span class="text-slate-400">CEO & Co-Founder</span>
+                          <span class="text-slate-200">Samantha Lee</span> - <span class="text-slate-400">CEO &amp; Co-Founder</span>
                         </div>
                       </div>
                     </div>
@@ -120,8 +132,8 @@ Swiper.use([Pagination, EffectFade])
 export default {
   name: 'Section06',
   mounted() {
-    // eslint-disable-next-line no-unused-vars
-    const testimonial = new Swiper('.testimonial-carousel', {
+    // Initialize the testimonial carousel
+    new Swiper('.testimonial-carousel', {
       slidesPerView: 1,
       watchSlidesProgress: true,
       effect: 'fade',
