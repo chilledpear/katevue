@@ -1,8 +1,6 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from './pages/Home.vue'
-import Chat from './pages/Chat.vue' // Optionally, you can rename this file later
-import Support from './pages/Support.vue'
 
 const routerHistory = createWebHistory()
 
@@ -18,9 +16,7 @@ const router = createRouter({
   },
   history: routerHistory,
   routes: [
-    { path: '/', component: Home },
-    { path: '/chat', component: Chat }, // Updated route here
-    { path: '/support', component: Support }
+    { path: '/', component: Home }
   ]
 })
 
