@@ -12,7 +12,7 @@
 
       <!-- CENTER IMAGE -->
       <div class="image-box">
-        <!-- Updated to use feature-01.jpg from src/images -->
+        <!-- Use feature-01.jpg from src/images -->
         <img
           id="center-image"
           src="../images/feature-01.jpg"
@@ -89,11 +89,12 @@ export default {
       console.log("Fetching API response for input:", userInput);
       try {
         const baseUrl = window.location.origin;
-        const response = await fetch(`${baseUrl}/api/chat`, {
+        console.log("Base URL:", baseUrl);
+        const apiUrl = `${baseUrl}/api/chat`;
+        console.log("Fetching API at:", apiUrl);
+        const response = await fetch(apiUrl, {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ message: userInput })
         });
         console.log("HTTP status:", response.status);
@@ -112,7 +113,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 /* RESET & BASE */
 * {
   box-sizing: border-box;
@@ -126,7 +127,7 @@ html, body {
 }
 
 /* LIGHT MODE */
-body {
+.light-mode {
   background-color: #fff;
   color: #333;
   cursor: url("strategist-cursor-light.png"), auto;
