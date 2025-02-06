@@ -1,133 +1,151 @@
 <template>
   <footer class="relative">
-
-    <!-- Bg -->
+    <!-- Background -->
     <div class="absolute inset-0 bg-slate-800 -z-10" aria-hidden="true"></div>
 
     <!-- Illustration -->
-    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none -z-10" aria-hidden="true">
-      <img class="max-w-none" src="../images/footer-illustration.svg" width="1940" height="381" />
+    <div
+      class="absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none -z-10"
+      aria-hidden="true"
+    >
+      <img class="max-w-none" src="../images/footer-illustration.svg" width="1940" height="381" alt="Footer Illustration" />
     </div>
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
 
       <!-- Blocks -->
       <div class="grid sm:grid-cols-12 lg:grid-cols-10 gap-8 py-8 border-t border-slate-700">
-
-        <!-- 1st block -->
+        <!-- 1st block: Brand -->
         <div class="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
           <!-- Logo -->
-          <router-link class="block" to="/" aria-label="Cruip">
-            <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
-              <g fill-rule="nonzero" fill="none">
-                <g class="fill-blue-500" transform="translate(3 3)">
-                  <circle cx="5" cy="5" r="5" />
-                  <circle cx="19" cy="5" r="5" />
-                  <circle cx="5" cy="19" r="5" />
-                  <circle cx="19" cy="19" r="5" />
-                </g>
-                <g class="fill-sky-300">
-                  <circle cx="15" cy="5" r="5" />
-                  <circle cx="25" cy="15" r="5" />
-                  <circle cx="15" cy="25" r="5" />
-                  <circle cx="5" cy="15" r="5" />
-                </g>
-              </g>
-            </svg>
+          <router-link class="block" to="/" aria-label="Kate AI">
+            <img src="../images/logo.png" alt="Kate AI Logo" width="120" class="object-contain" />
           </router-link>
         </div>
 
-        <!-- 2nd block -->
+        <!-- 2nd block: Features -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-100 font-bold mb-3">Essentials</h6>
-          <ul class="text-sm font-[450] space-y-2">
+          <h6 class="text-sm text-slate-100 font-bold mb-3">Features</h6>
+          <ul class="text-sm font-medium space-y-2">
             <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Payments</a>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Twitter Aggregation
+              </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Budgeting and analytics</a>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Instant Video Downloads
+              </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Open banking</a>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Real-Time Notifications
+              </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Pockets</a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Subscriptions</a>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Data Summaries
+              </a>
             </li>
           </ul>
         </div>
 
-        <!-- 3rd block -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-100 font-bold mb-3">Company</h6>
-          <ul class="text-sm font-[450] space-y-2">
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">About us</a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Diversity / Inclusion</a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Sustainability</a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Code of conduct</a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Financial statements</a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- 4th block -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-100 font-bold mb-3">Lifestyle</h6>
-          <ul class="text-sm font-[450] space-y-2">
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">International products</a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Currency exchange</a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Lounge & Smart delay</a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- 5th block -->
+        <!-- 3rd block: Company -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="text-sm text-slate-100 font-bold mb-3">Company</h6>
-          <ul class="text-sm font-[450] space-y-2">
+          <ul class="text-sm font-medium space-y-2">
             <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Send us an email</a>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                About Kate AI
+              </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Facebook</a>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Our Vision
+              </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Twitter</a>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Team
+              </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">Instagram</a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-blue-500 transition duration-150 ease-in-out" href="#0">TikTok</a>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Careers
+              </a>
             </li>
           </ul>
         </div>
 
+        <!-- 4th block: Community -->
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <h6 class="text-sm text-slate-100 font-bold mb-3">Community</h6>
+          <ul class="text-sm font-medium space-y-2">
+            <li>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Help Center
+              </a>
+            </li>
+            <li>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                FAQs
+              </a>
+            </li>
+            <li>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Support
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 5th block: Connect -->
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <h6 class="text-sm text-slate-100 font-bold mb-3">Connect</h6>
+          <ul class="text-sm font-medium space-y-2">
+            <li>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Telegram
+              </a>
+            </li>
+            <li>
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <!-- Bottom area -->
       <div class="pb-4 md:pb-8">
         <div class="text-xs text-slate-500">
-          If you would like to find out more about which entity you receive services from please click <a class="font-medium underline hover:text-blue-500 transition duration-150 ease-in-out" href="#0">here</a> If you have any other questions, please reach out to us via the in-app chat. Custom Bank is a bank established in the Republic of Ireland. Custom Bank is licensed by the European Central Bank and regulated by the Bank of Ireland. Cusom Bank provides credit, payment, current account and demand deposit account services.
+          © {{ new Date().getFullYear() }} Kate AI. All rights reserved. &nbsp;|&nbsp;
+          <a class="font-medium underline hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+            Privacy Policy
+          </a>
+          &nbsp;|&nbsp;
+          <a class="font-medium underline hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+            Terms of Service
+          </a>
         </div>
       </div>
-
+      
     </div>
   </footer>
 </template>

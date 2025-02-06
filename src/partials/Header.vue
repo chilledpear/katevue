@@ -6,34 +6,18 @@
         <!-- Site branding -->
         <div class="shrink-0 mr-4">
           <!-- Logo -->
-          <router-link class="block" to="/" aria-label="Cruip">
-            <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
-              <g fill-rule="nonzero" fill="none">
-                <g class="fill-blue-50" transform="translate(3 3)">
-                  <circle cx="5" cy="5" r="5" />
-                  <circle cx="19" cy="5" r="5" />
-                  <circle cx="5" cy="19" r="5" />
-                  <circle cx="19" cy="19" r="5" />
-                </g>
-                <g class="fill-sky-300">
-                  <circle cx="15" cy="5" r="5" />
-                  <circle cx="25" cy="15" r="5" />
-                  <circle cx="15" cy="25" r="5" />
-                  <circle cx="5" cy="15" r="5" />
-                </g>
-              </g>
-            </svg>
+          <router-link class="block" to="/" aria-label="Kate AI">
+            <img src="../images/logo.png" alt="Kate AI Logo" width="30" height="30" class="object-contain" />
           </router-link>
         </div>
 
         <!-- Desktop navigation -->
         <nav class="flex grow">
-
           <!-- Desktop sign in links -->
           <ul class="flex grow justify-end flex-wrap items-center">
             <li class="ml-3">
-              <router-link class="btn-sm inline-flex items-center text-slate-100 bg-slate-800 hover:bg-slate-900 group shadow-xs" to="/apply">
-                Get your card
+              <router-link class="btn-sm inline-flex items-center text-slate-100 bg-slate-800 hover:bg-slate-900 group shadow-xs" to="/chat">
+                Chat with Kate
                 <span class="tracking-normal text-sky-400 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">
                   <svg class="fill-current" width="12" height="10" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 6.002h7.586L6.293 8.295a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.416l-4-4a1 1 0 0 0-1.414 1.416l2.293 2.293H1a1 1 0 1 0 0 2Z" />
@@ -42,7 +26,6 @@
               </router-link>
             </li>
           </ul>
-
         </nav>
 
       </div>
