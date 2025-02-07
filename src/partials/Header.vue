@@ -5,7 +5,7 @@
         <!-- Site branding: Logo and Contract Address text -->
         <div class="flex items-center">
           <img src="../images/logo.png" alt="Kate AI Logo" width="30" height="30" class="object-contain" />
-          <span class="ml-2 text-sm text-slate-300">Contract Address: coming soon</span>
+          <span class="ml-2 text-sm text-slate-300">Contract Address: 7ZgAmPCTz69SPxDhKVRxgFNAixcgB4rWkMFwpsNmpump</span>
         </div>
 
         <!-- Desktop navigation -->
