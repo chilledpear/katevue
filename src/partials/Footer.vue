@@ -12,7 +12,6 @@
     </div>
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-
       <!-- Blocks -->
       <div class="grid sm:grid-cols-12 lg:grid-cols-10 gap-8 py-8 border-t border-slate-700">
         <!-- 1st block: Brand -->
@@ -28,50 +27,18 @@
           <h6 class="text-sm text-slate-100 font-bold mb-3">Features</h6>
           <ul class="text-sm font-medium space-y-2">
             <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Twitter Aggregation
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#section03">
+                Twitter Data Aggregation
               </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#section02">
                 Instant Video Downloads
               </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#section04">
                 Real-Time Notifications
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Data Summaries
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- 3rd block: Company -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-100 font-bold mb-3">Company</h6>
-          <ul class="text-sm font-medium space-y-2">
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                About Kate AI
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Our Vision
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Team
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Careers
               </a>
             </li>
           </ul>
@@ -82,50 +49,18 @@
           <h6 class="text-sm text-slate-100 font-bold mb-3">Community</h6>
           <ul class="text-sm font-medium space-y-2">
             <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Help Center
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                FAQs
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Support
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- 5th block: Connect -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-100 font-bold mb-3">Connect</h6>
-          <ul class="text-sm font-medium space-y-2">
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Contact Us
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="https://x.com/Kate_Ai_" target="_blank" rel="noopener noreferrer">
                 Twitter
               </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="https://t.me/twitterkate" target="_blank" rel="noopener noreferrer">
                 Telegram
               </a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-                Instagram
+              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="https://t.me/KateDownload_bot" target="_blank" rel="noopener noreferrer">
+                Kate AI
               </a>
             </li>
           </ul>
@@ -145,7 +80,6 @@
           </a>
         </div>
       </div>
-      
     </div>
   </footer>
 </template>
