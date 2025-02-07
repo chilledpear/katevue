@@ -6,7 +6,8 @@
       
       <!-- Video at the top -->
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="mb-8">
+        <!-- Add a small top margin so the video isn't flush with the section top, and reduce the bottom margin -->
+        <div class="mt-4 mb-4">
           <video autoplay loop muted playsinline class="w-full rounded-lg">
             <source src="../images/example2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
