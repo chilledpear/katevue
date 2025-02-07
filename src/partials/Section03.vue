@@ -1,13 +1,15 @@
 <template>
-  <section class="pt-8 md:pt-10 mt-12 md:mt-20" data-aos-id-3>
+  <!-- Reduced overall top margin on this section -->
+  <section class="pt-8 md:pt-10 mt-4 md:mt-8" data-aos-id-3>
     <div class="relative max-w-7xl mx-auto">
       <!-- Background -->
       <div class="absolute inset-0 rounded-tl-[100px] mb-24 md:mb-0 bg-linear-to-b from-slate-100 pointer-events-none -z-10" aria-hidden="true"></div>
       
-      <!-- Video at the top -->
+      <!-- Video at the top with internal spacing -->
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <!-- Add a small top margin so the video isn't flush with the section top, and reduce the bottom margin -->
-        <div class="mt-8 mb-4">
+        <!-- Added a small top margin for the video container -->
+        <br><br/>
+        <div class="mt-4 mb-4">
           <video autoplay loop muted playsinline class="w-full rounded-lg">
             <source src="../images/example2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
