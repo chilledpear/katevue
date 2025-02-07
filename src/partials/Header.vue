@@ -1,94 +1,59 @@
 <template>
-  <footer class="relative">
-    <!-- Background -->
-    <div class="absolute inset-0 bg-slate-800 -z-10" aria-hidden="true"></div>
-
-    <!-- Illustration -->
-    <div
-      class="absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none -z-10"
-      aria-hidden="true"
-    >
-      <img class="max-w-none" src="../images/footer-illustration.svg" width="1940" height="381" alt="Footer Illustration" />
-    </div>
-
+  <header class="absolute w-full z-30">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-
-      <!-- Blocks -->
-      <div class="grid sm:grid-cols-12 lg:grid-cols-10 gap-8 py-8 border-t border-slate-700">
-        <!-- 1st block: Brand -->
-        <div class="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
-          <!-- Logo -->
-          <router-link class="block" to="/" aria-label="Kate AI">
-            <img src="../images/logo.png" alt="Kate AI Logo" width="120" class="object-contain" />
-          </router-link>
-        </div>
-
-        <!-- 2nd block: Features -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-100 font-bold mb-3">Features</h6>
-          <ul class="text-sm font-medium space-y-2">
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#section03">
-                Twitter Data Aggregation
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#section02">
-                Instant Video Downloads
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="#section04">
-                Real-Time Notifications
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- 4th block: Community -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-sm text-slate-100 font-bold mb-3">Community</h6>
-          <ul class="text-sm font-medium space-y-2">
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="https://x.com/Kate_Ai_" target="_blank" rel="noopener noreferrer">
-                Twitter
-              </a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="https://t.me/twitterkate" target="_blank" rel="noopener noreferrer">
-                Telegram
-              </a>
-            </li>
-            <li>
-              <!-- Updated the Kate AI link here -->
-              <a class="text-slate-400 hover:text-pink-500 transition duration-150 ease-in-out" href="https://www.katechatbot.fun/" target="_blank" rel="noopener noreferrer">
-                Kate AI
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Bottom area -->
-      <div class="pb-4 md:pb-8">
-        <div class="text-xs text-slate-500">
-          © {{ new Date().getFullYear() }} Kate AI. All rights reserved. &nbsp;|&nbsp;
-          <a class="font-medium underline hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-            Privacy Policy
-          </a>
-          &nbsp;|&nbsp;
-          <a class="font-medium underline hover:text-pink-500 transition duration-150 ease-in-out" href="#0">
-            Terms of Service
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <!-- Site branding -->
+        <div class="shrink-0 mr-4">
+          <!-- Logo now links to https://www.katechatbot.fun/ -->
+          <a
+            class="block"
+            href="https://www.katechatbot.fun/"
+            aria-label="Kate AI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../images/logo.png"
+              alt="Kate AI Logo"
+              width="30"
+              height="30"
+              class="object-contain"
+            />
           </a>
         </div>
+        <!-- Desktop navigation -->
+        <nav class="flex grow">
+          <!-- Desktop sign in links -->
+          <ul class="flex grow justify-end flex-wrap items-center">
+            <li class="ml-3">
+              <router-link
+                class="btn-sm inline-flex items-center text-slate-100 bg-slate-800 hover:bg-slate-900 group shadow-xs"
+                to="/chat"
+              >
+                Chat with Kate
+                <span
+                  class="tracking-normal text-sky-400 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2"
+                >
+                  <svg
+                    class="fill-current"
+                    width="12"
+                    height="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M1 6.002h7.586L6.293 8.295a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.416l-4-4a1 1 0 0 0-1.414 1.416l2.293 2.293H1a1 1 0 1 0 0 2Z" />
+                  </svg>
+                </span>
+              </router-link>
+            </li>
+          </ul>
+        </nav>
       </div>
-
     </div>
-  </footer>
+  </header>
 </template>
 
 <script>
 export default {
-  name: 'Footer',
+  name: 'Header',
 }
 </script>
