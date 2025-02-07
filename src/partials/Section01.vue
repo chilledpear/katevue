@@ -20,7 +20,7 @@
             <div class="mb-3">
               <img src="../images/icon2.png" alt="Extract Twitter Alpha" class="w-14 h-14 object-contain mr-3" />
             </div>
-            <h4 class="text-xl font-bold mb-1">Chat with Kate</h4>
+            <h4 class="text-xl font-bold mb-1">Extract Twitter Alpha</h4>
             <p class="text-slate-500">
               Start a conversation with Kate AI and get curated Twitter insights, trending topics, and data summaries right in your chat.
             </p>
