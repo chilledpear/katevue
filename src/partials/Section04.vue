@@ -150,7 +150,9 @@
                 <div>
                   <router-link
                     class="btn-sm inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 group shadow-xs"
-                    to="/chat"
+                    href="https://t.me/twitterkate"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Stay Tuned
                     <span

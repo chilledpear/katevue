@@ -25,7 +25,9 @@
               <div>
                 <router-link
                   class="btn-sm w-full inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 group shadow-xs"
-                  to="/chat"
+                  href="https://t.me/KateDownload_bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Add Kate AI
                   <span class="tracking-normal text-sky-400 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">
@@ -38,9 +40,11 @@
               <div>
                 <a
                   class="btn-sm w-full inline-flex items-center text-white bg-slate-700 hover:bg-slate-800 shadow-xs relative before:absolute before:inset-0 before:bg-blue-400/60 before:-z-10 before:rounded-full"
-                  href="#learn"
+                  href="https://t.me/twitterkate"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Explore Features
+                  Join Community
                 </a>
               </div>
             </div>
