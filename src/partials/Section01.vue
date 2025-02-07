@@ -2,6 +2,13 @@
   <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="py-12 md:py-28 md:pb-20">
+        <!-- Video Example at the Top -->
+        <div class="mb-8">
+          <video controls autoplay loop muted class="w-full rounded-lg">
+            <source src="../images/example.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <!-- Items -->
         <div class="max-w-sm mx-auto grid gap-12 md:grid-cols-3 md:-mx-9 md:gap-0 items-start md:max-w-none text-left" data-aos="fade-up">
           <!-- 1st item -->
