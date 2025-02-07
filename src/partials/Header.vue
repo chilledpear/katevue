@@ -2,10 +2,10 @@
   <header class="absolute w-full z-30">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="flex items-center justify-between h-16 md:h-20">
-
-        <!-- Site branding (logo is now static, no link) -->
-        <div class="shrink-0 mr-4">
+        <!-- Site branding: Logo and Contract Address text -->
+        <div class="flex items-center">
           <img src="../images/logo.png" alt="Kate AI Logo" width="30" height="30" class="object-contain" />
+          <span class="ml-2 text-sm text-slate-300">Contract Address: coming soon</span>
         </div>
 
         <!-- Desktop navigation -->

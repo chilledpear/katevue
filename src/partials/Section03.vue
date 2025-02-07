@@ -3,7 +3,18 @@
     <div class="relative max-w-7xl mx-auto">
       <!-- Background -->
       <div class="absolute inset-0 rounded-tl-[100px] mb-24 md:mb-0 bg-linear-to-b from-slate-100 pointer-events-none -z-10" aria-hidden="true"></div>
+      
+      <!-- Video at the top -->
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="mb-8">
+          <video autoplay loop muted playsinline class="w-full rounded-lg">
+            <source src="../images/example2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
 
+      <!-- Existing Section Content -->
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <div class="pb-6 pt-12 md:pt-20">
           <!-- Section content -->
@@ -36,16 +47,24 @@
                 </div>
               </div>
             </div>
-
             <!-- Image -->
             <div class="w-full max-w-sm md:max-w-none md:mr-8 mt-8 md:mt-0">
               <div class="relative -mx-8 md:mx-0">
-                <img src="../images/features-03.png" class="md:max-w-none" width="496" height="496" alt="Why Choose Kate AI" data-aos="fade-up" data-aos-anchor="[data-aos-id-3]" />
+                <img
+                  src="../images/features-03.png"
+                  class="md:max-w-none"
+                  width="496"
+                  height="496"
+                  alt="Why Choose Kate AI"
+                  data-aos="fade-up"
+                  data-aos-anchor="[data-aos-id-3]"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 </template>
